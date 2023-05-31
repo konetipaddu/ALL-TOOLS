@@ -92,9 +92,9 @@
   and storage components
 * K8s Can be installed in many ways
     * Self Hosted => where we install k8s
-           minikube
-           Kubeadm
-           Kube Spray
+          * minikube
+          * Kubeadm
+          * Kube Spray
 * Cloud Hosted Services => Kubernetes as a Service
 AWS => Elastic Kubernetes Service (EKS)
 Azure => Azure Kubernetes Service (AKS)
