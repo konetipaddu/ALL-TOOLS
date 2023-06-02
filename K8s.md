@@ -5,7 +5,7 @@
 
   * The problem is When your working in Single System . If there is Some Software Which Recogniges that When Containers goes Down it will automatically Do the Work So Starting Containers back  So your application is always Up and Running. There is Some Application can Do that . It will help us 
 
- `When we Run our Application in Docker Containers and if Containers fails we need to Manually Start the Conatiner(Container Down)`
+  `When we Run our Application in Docker Containers and if Containers fails we need to Manually Start the Conatiner(Container Down)`
       
  `If the Node i.e The machine Fails all the Container Running on the same machine it Should be Re-Created on Other machine(Node Down)`
 ####  k8s Can do both the above But Docker which cannot do it. might Docker Swarm Does it:
@@ -304,7 +304,7 @@ used to make sure a Pod is not published as available until the readinessProbe h
  If we define a startup probe for a container, then Kubernetes does not execute the liveness or readiness probes, as long as the container's startup probe does not succeed.
 ## configure pods:
 ### initialDelaySeconds:
- Number of seconds after the container has started before liveness or readiness probes are initiated. Defaults to 0 seconds. Minimum value is 0.
+ Number of seconds after the container has started before liveness o'r readiness probes are initiated. Defaults to 0 seconds. Minimum value is 0.
 ### periodSeconds:
  How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
 ### timeoutSeconds:
